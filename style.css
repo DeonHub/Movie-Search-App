@@ -1,0 +1,22 @@
+.tab{
+	margin-top:100px;
+}
+
+#movies img, #movie img{
+  width:100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:300px;
+  }
+}
+
+body{
+	background-image: url("images/film.jpg");
+	background-attachment: fixed;
+}
